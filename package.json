@@ -4,9 +4,13 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.0",
+    "prettier": "^1.18.2",
     "react": "^16.10.2",
+    "react-csv": "^1.1.1",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-table": "^6.10.3",
+    "react-toastify": "^5.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -28,5 +32,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-test-renderer": "^16.10.2"
   }
 }
